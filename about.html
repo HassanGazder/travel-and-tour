@@ -14,6 +14,12 @@
         integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Travel And Tour</title>
+    <!-- jQuery Library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Counts JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
 
 </head>
 
@@ -56,10 +62,10 @@
     </section>
     <!-- banner -->
 
-    <section class="about-us-2 mt-5">
+    <section class="about-us-2">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-7">
+                <div class="col-lg-7 col-md-12 col-sm-12">
                     <h2 class="sub-heading">About Us</h2>
                     <h1 class="heading-h1 mt-3">We Are The World Best Travel Agency Company Since 2000</h1>
                     <p class="mt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum sed earum distinctio
@@ -75,15 +81,15 @@
 
                     <button class="btn custom-btn mt-3">Find Tours</button>
                 </div>
-                <div class="col-lg-5 pt-3">
+                <div class="col-lg-5 col-md-12 col-sm-12 pt-3">
                     <img width="100%" height="400px" src="./asset/images/abour_right.png" alt="">
                 </div>
                 <!-- row 2 -->
-                <div class="col-lg-4 mt-5 pt-5">
+                <div class="col-lg-4 col-md-12 col-sm-12 mt-5 pt-5">
                     <img height="345px" width="100%" src="./asset/images/about-4-banner.jpg" alt="">
                 </div>
 
-                <div class="col-lg-8 discount-tour mt-5 pt-5">
+                <div class="col-lg-8 col-md-12 col-sm-12 discount-tour mt-5 pt-5">
                     <img height="345px" width="100%" src="./asset/images/about-5-banner.jpg" alt="">
                 </div>
                 <!-- row 2 -->
@@ -97,7 +103,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-12 col-sm-12">
                     <div class="card">
-                        <p class="text-center">icon</p>
+                        <i class="fa-brands fa-servicestack icons"></i>
                         <div class="card-body">
                             <div class="heading">Trusted payment</div>
                             <p class="card-text mt-4">Phaseus site amet tristique ligua donec iaculis leo sus cipit.
@@ -109,7 +115,8 @@
                 </div>
                 <div class="col-lg-3 col-md-12 col-sm-12">
                     <div class="card">
-                        <p class="text-center">icon</p>
+                        <i class="fa-solid fa-money-check-dollar icons"></i>
+
                         <div class="card-body">
                             <div class="heading">Top facility</div>
                             <p class="card-text mt-4">Phaseus site amet tristique ligua donec iaculis leo sus cipit.
@@ -122,7 +129,7 @@
                 </div>
                 <div class="col-lg-3 col-md-12 col-sm-12">
                     <div class="card">
-                        <p class="text-center">icon</p>
+                        <i class="fa-regular fa-star-half-stroke icons"></i>
                         <div class="card-body">
                             <div class="heading">Awesome deals</div>
                             <p class="card-text mt-4">Phaseus site amet tristique ligua donec iaculis leo sus cipit.
@@ -135,7 +142,7 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="card">
-                        <p class="text-center">icon</p>
+                        <i class="fa-solid fa-atom icons"></i>
                         <div class="card-body">
                             <div class="heading">Trusted Payment</div>
                             <p class="card-text mt-4">Phaseus site amet tristique ligua donec iaculis leo sus cipit.
@@ -154,10 +161,64 @@
 
     <!-- questions section -->
     <section class="questions d-flex justify-content-center align-items-center text-white">
-        <h1>Have you any question? Get A Consultation</h1>
-
+        <div class="col-lg-10 col-md-12 col-sm-12 text-center">
+            <h1>Have you any question? Get A Consultation</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur nemo veritatis necessitatibus
+                molestiae impedit nam odit vero animi adipisci aliquid? Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit. Mollitia accusantium fugiat aspernatur laborum in eius voluptates rem recusandae
+                beatae et.</p>
+        </div>
     </section>
     <!-- questions section -->
+
+    <!-- counter section  -->
+    <section id="counter-area" class="section-padding-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="counter-area-wrapper">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-12 col-sm-12">
+                                <div class="counter-item text-center">
+                                    <img src="./asset/images/about-2-counter.jpg" alt="icon">
+                                    <h3 class="counter mt-2" data-toggle="counterUp">2345</h3>
+                                    <h6>Partners</h6>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-12 col-sm-12">
+                                <div class="counter-item text-center">
+                                    <img src="./asset/images/about-2-counter-2.jpg" alt="icon">
+                                    <h3 class="counter mt-2" data-toggle="counterUp">1556</h3>
+                                    <h6>Listed Property</h6>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-12 col-sm-12">
+                                <div class="counter-item text-center">
+                                    <img src="./asset/images/about-2-counter-3.jpg" alt="icon">
+                                    <h3 class="counter mt-2" data-toggle="counterUp">3456</h3>
+                                    <h6>Destinations</h6>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-12 col-sm-12">
+                                <div class="counter-item text-center">
+                                    <img src="./asset/images/about-2-counter-4.jpg" alt="icon">
+                                    <h3 class="counter mt-2" data-toggle="counterUp">7875</h3>
+                                    <h6>Booking</h6>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- counter section  -->
+
 
     <!-- Reveiw -->
     <section class="review">
@@ -173,7 +234,8 @@
                             <div class="heading text-center">Jesica simpsn</div>
                             <p class="text-center">Tourist</p>
 
-                            <p class="card-text mt-4 text-center">" Loved the overall tour for all 6 days covering jaipur jodhpur
+                            <p class="card-text mt-4 text-center">" Loved the overall tour for all 6 days covering
+                                jaipur jodhpur
                                 and jaisalmer. worth ur money for sure. thanks. Driver was very good and polite and safe
                                 driving for all 6 days. on time pickup and drop overall. Thanks for it. "
                             </p>
@@ -188,7 +250,8 @@
                         <div class="card-body">
                             <div class="heading text-center">Jesica simpsn</div>
                             <p class="text-center">Tourist</p>
-                            <p class="card-text mt-4 text-center">" Loved the overall tour for all 6 days covering jaipur jodhpur
+                            <p class="card-text mt-4 text-center">" Loved the overall tour for all 6 days covering
+                                jaipur jodhpur
                                 and jaisalmer. worth ur money for sure. thanks. Driver was very good and polite and safe
                                 driving for all 6 days. on time pickup and drop overall. Thanks for it. "
                             </p>
@@ -202,9 +265,10 @@
                             alt="">
                         <div class="card-body">
                             <div class="heading text-center">Santa mariam</div>
-                            <p class="text-center">Manager  </p>
+                            <p class="text-center">Manager </p>
 
-                            <p class="card-text mt-4 text-center">" Loved the overall tour for all 6 days covering jaipur jodhpur
+                            <p class="card-text mt-4 text-center">" Loved the overall tour for all 6 days covering
+                                jaipur jodhpur
                                 and jaisalmer. worth ur money for sure. thanks. Driver was very good and polite and safe
                                 driving for all 6 days. on time pickup and drop overall. Thanks for it. "
                             </p>
@@ -217,9 +281,162 @@
     </section>
     <!-- Reveiw -->
 
+    <!-- go to top button -->
+    <!-- <div class="go-top active">
+        <i class="fas fa-chevron-up">
+
+        </i>
+        <i class="fas fa-chevron-up">
+        </i>
+
+    </div> -->
+    <!-- go to top button -->
+ <!-- footer -->
+    <!-- Remove the container if you want to extend the Footer to full width. -->
+    <section class="footer">
+        <div class="container-fluid mt-5">
+
+            <!-- Footer -->
+            <footer class="text-center text-lg-start text-white" style="background-color: #1c2331">
+                <!-- Section: Social media -->
+                <section class="d-flex justify-content-between p-4" style="background-color: #1f1a54">
+                    <!-- Left -->
+                    <div class="me-5">
+                        <span>Get connected with us on social networks:</span>
+                    </div>
+                    <!-- Left -->
+
+                    <!-- Right -->
+                    <div>
+              <a href="" class="text-white me-4">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="" class="text-white me-4">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="" class="text-white me-4">
+                <i class="fab fa-google"></i>
+              </a>
+              <a href="" class="text-white me-4">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="" class="text-white me-4">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="" class="text-white me-4">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+                    <!-- Right -->
+                </section>
+                <!-- Section: Social media -->
+
+                <!-- Section: Links  -->
+                <section class="">
+                    <div class="container text-center text-md-start mt-5">
+                        <!-- Grid row -->
+                        <div class="row mt-3">
+                            <!-- Grid column -->
+                            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                                <!-- Content -->
+                                <h6 class="text-uppercase fw-bold mt-3">Company name</h6>
+                                <p>
+                                    Here you can use rows and columns to organize your footer
+                                    content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                                    elit.
+                                </p>
+                            </div>
+                            <!-- Grid column -->
+
+                            <!-- Grid column -->
+                            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                                <!-- Links -->
+                                <h6 class="text-uppercase fw-bold mt-3">Top Destinations</h6>
+
+
+                                <p href="#!" class="text-white" style="list-style: none;">Indonesia,Jakarta</p>
+
+                                <p>
+                                <p href="#!" class="text-white">Maldives,Male</p>
+
+
+                                <p href="#!" class="text-white">Austrailia,Canberra</p>
+
+
+                                <p href="#!" class="text-white">Thailand,Bankok</p>
+
+
+                                <p href="#!" class="text-white">Morroco,Rabbat</p>
+
+                            </div>
+                            <!-- Grid column -->
+
+                            <!-- Grid column -->
+                            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                                <!-- Links -->
+                                <h6 class="text-uppercase fw-bold mt-3">Categories</h6>
+
+                                <p href="#!" class="text-white">Travel </p>
+
+
+                                <p href="#!" class="text-white">Lifesylet</p>
+
+
+                                <p href="#!" class="text-white">Fashion</p>
+
+
+                                <p href="#!" class="text-white">Eduction</p>
+
+                                <p href="#!" class="text-white">Food And Drink</p>
+
+
+                            </div>
+                            <!-- Grid column -->
+
+                            <!-- Grid column -->
+                            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                                <!-- Links -->
+                                <h6 class="text-uppercase fw-bold mt-3">Contact</h6>
+
+                                <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+                                <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
+                                <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+                                <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                            </div>
+                            <!-- Grid column -->
+                        </div>
+                        <!-- Grid row -->
+                    </div>
+                </section>
+                <!-- Section: Links  -->
+
+                <!-- Copyright -->
+                <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+                    © 202 Copyright:
+
+                </div>
+                <!-- Copyright -->
+            </footer>
+            <!-- Footer -->
+
+        </div>
+    </section>
+
+    <!-- End of .container -->
+    <!-- footer -->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://www.markuptag.com/bootstrap/5/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript">
+        // jQuery counterUp
+        $('[data-toggle="counterUp"]').counterUp({
+            delay: 15,
+            time: 2000
+        });
+    </script>
 </body>
 
 </html>

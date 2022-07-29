@@ -207,59 +207,69 @@ header {
 
 
 /* about us css  */
+
 /* banner-2-css */
 .banner-2{
   background-image: url(../images/about-3-banner.jpg);
   width: 100%;
-  height: 90vh;
+  height: 70vh;
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
 }
 .banner-2 h1{
   position: absolute;
-  top: 60%;
+  top: 40%;
   left: 43%;
   font-weight: 300;
   color: var(--white);
 }
 /* banner-2 css */
+
 /* about-2-css */
+.about-us-2{
+  margin-top: 8rem;
+}
 .about-us-2 .card{
   border: none;
   box-shadow: 1px 1px 12px -2px #bfafb2;
   -webkit-box-shadow: 1px 1px 12px -2px #bfafb2;
   -moz-box-shadow: 1px 1px 12px -2px #bfafb2;
   border-radius: 10px;
-  border-radius: 10px; 
-  margin: 20px;
+  padding: 20px;
+  width: 100%;
 
 }
-.about-us-2 .discount-tour{
-  /* background-image: url(../images/about-5-banner.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-   margin-top: 5.5rem;
-  object-fit: contain; */
+.about-us-2 .card .icons{
+  font-size: 2rem;
+}
+.about-us-2 .card .heading{
+  color: var(--secondary);
+  font-weight: bold;
+}
+.about-us-2 .card .heading:hover{
+  color: var(--black);
+  cursor: pointer;
 }
 /* about-2-css */
 
 /* questions css */
 .questions{
+  margin-top: 8rem;
+}
+.questions{
   background-image:url(../images/about-5-question.jpg);
   width: 100%;
-  height: 60vh;
+  height: 70vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 5rem;
 }
 
 /* questions css */
 /* reviews css */
 .review{
-  margin-top: 5rem;
+  margin-top: 4rem;
 }
 .review .card{
   border: none;
@@ -267,10 +277,144 @@ header {
   -webkit-box-shadow: 1px 1px 12px -2px #bfafb2;
   -moz-box-shadow: 1px 1px 12px -2px #bfafb2;
   border-radius: 10px;
-  border-radius: 10px; 
-  margin: 20px;
+  padding: 20px;
+  width: 100%;
+  
 }
 /* revewis css */
+
+/* counter-section css */
+#counter-area {
+  margin-top: -100px;
+}
+.section-padding-bottom {
+  padding: 0 0 100px 0;
+}
+
+.counter-area-wrapper {
+    background: #FFFFFF;
+    box-shadow: -4px -4px 16px rgb(0 0 0 / 6%), 8px 10px 20px rgb(0 0 0 / 6%);
+    border-radius: 12px;
+}
+.counter-item {
+  border-right: 1px solid #e9e9e9;
+  padding: 35px 0;
+}
+.counter-area-wrapper .counter-item .counter{
+  color: var(--secondary);
+}
+/* counter-section css */
+
+/* back to top button css */
+/* .go-top.active {
+  top: 98%;
+  -webkit-transform: translateY(-98%);
+  transform: translateY(-98%);
+  opacity: 1;
+  visibility: visible;
+}
+.go-top {
+  position: fixed;
+  cursor: pointer;
+  top: 0;
+  right: 15px;
+  color: #fff;
+  background-color: var(--main-color);
+  z-index: 4;
+  width: 40px;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: .9s;
+  transition: .9s;
+  border-radius: 50%;
+}
+.go-top i {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  -webkit-transition: .6s;
+  transition: .6s;
+}
+
+
+
+.go-top i {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    -webkit-transition: .6s;
+    transition: .6s;
+}
+.fa, .fas {
+    font-weight: 900;
+}
+.fa, .far, .fas {
+  font-family: "Font Awesome 5 Free";
+}
+
+
+
+.go-top i {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    -webkit-transition: .6s;
+    transition: .6s;
+}
+.fa, .fas {
+    font-weight: 900;
+}
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free";
+}
+.fa, .fab, .fad, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+.go-top::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #393953;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: .6s;
+  transition: .6s;
+  border-radius: 50%;
+}
+.fa-chevron-up:before {
+  content: "\f077";
+}
+.go-top i:last-child {
+  opacity: 0;
+  visibility: hidden;
+  top: 60%;
+} */
+/* back to top button css */
 
 
 /* about us css */
