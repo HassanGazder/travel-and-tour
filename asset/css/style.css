@@ -334,5 +334,43 @@ padding: 10px;
 /* images gallery css */
 
 
+/* videos gallery */
+.videos-gallery{
+  background-color: var(--bg-color);
+  margin-top: 8rem;
+}
+.videos-gallery .row img{
+  width: 100%;
+  padding: 10px;
+  height: 350px;
+ }
+ .videos-gallery span{
+  color: var(--secondary);
+ }
+ .videos-gallery .video-gallery-icon {
+  z-index: 2;
+  position: relative;
+  display: inline-block;
+  justify-content: center;
+  bottom:20%;
+  right: 10px;
+  left: 30px;
+  background: transparent;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  color: #fff;
+  padding: 9px 8px 9px 20px;
+  line-height: 0;
+  font-size: 34px;
+  height: 58px;
+  width: 58px;
+}
+.videos-gallery .video-gallery-icon:hover{
+  background-color: var(--white);
+  color: var(--primary);
+  cursor: pointer;
+}
+/* videos gallery */
+
 
 /* gallery css  */
