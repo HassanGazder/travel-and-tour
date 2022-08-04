@@ -17,8 +17,8 @@
   --bg-color: #e6e6e6;
   --sky-blue: #1697bb;
   --white: #ffffff;
-  --black: #0000;
-  --gray: gray;
+  --black: #000;
+  --gray: #545557;
 }
 
 .custom-btn {
@@ -57,6 +57,7 @@
 .sub-heading{
   color: var(--yellow);
   font-weight: bold;
+  font-size: 25px;
 }
 
 header {
@@ -125,6 +126,23 @@ header {
  text-align: center;
  color: white;
 }
+.destinations .img-heading{
+  color: black;
+  position: relative;
+  bottom: 20%;
+  float: left;
+  left: 7%;
+  font-size: 2rem;
+  color: var(--yellow);
+}
+.destinations .img-sub-head{
+  color: black;
+  position: relative;
+  bottom: 13%;
+  float: left;
+  font-size: 30px;
+  right: 5%;
+}
 /* destination */
 
 /* popular tours */
@@ -132,12 +150,14 @@ header {
   margin-top: 9rem;
 }
 .tours .card{
-  width: 100%;
+  width: 90%;
   box-shadow: 1px 1px 12px -2px #bfafb2;
   -webkit-box-shadow: 1px 1px 12px -2px #bfafb2;
   -moz-box-shadow: 1px 1px 12px -2px #bfafb2;
   border-radius: 10px;
   object-fit: contain;
+  margin: 0 auto;
+
 }
 .tours .rupees{
   width: 120px;
@@ -148,8 +168,9 @@ header {
   border-radius: 15px;
 }
 .tours .card-text{
-  font-size: 25px;
-  font-weight: bold;
+  font-size: 15px;
+  color: var(--gray);
+  font-weight: 500;
 }
 
 /* popular tours */
@@ -168,7 +189,6 @@ header {
   width: 100%;
   object-fit: contain;
   height: 80vh;
-  margin-top: 10rem;
 }
 /* about us */
 
@@ -177,11 +197,17 @@ header {
   margin-top: 9rem;
 }
 .latest .card{
-  width: 100%;
+  width: 90%;
   box-shadow: 1px 1px 12px -2px #bfafb2;
   -webkit-box-shadow: 1px 1px 12px -2px #bfafb2;
   -moz-box-shadow: 1px 1px 12px -2px #bfafb2;
   border-radius: 10px;
+  margin: 0 auto;
+  object-fit: contain;
+
+}
+.latest .card .card-text{
+  color: var(--gray);
 }
 .latest .card .time{
   display: flex;
@@ -282,8 +308,12 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.questions h1{
+  font-weight: 200;
+}
 /* questions css */
+
+
 /* reviews css */
 .review{
   margin-top: 4rem;
@@ -297,6 +327,11 @@ header {
   width: 100%;
   margin: 10px
 
+}
+.review .customer-img{
+  margin-top: -20px;
+  width: 40px;
+  height: 40px;
 }
 /* revewis css */
 
