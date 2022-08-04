@@ -178,7 +178,10 @@ header {
 /* destinations */
 
 /* about us */
-.about h2{
+.about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 9rem;
 }
 .about .tour-head{
@@ -212,14 +215,16 @@ header {
 .latest .card .time{
   display: flex;
   justify-content: flex-end;
-  margin-top: -30px ;
+  margin-top: -35px ;
 }
 .latest .card .card-bottom{
   display: flex;
   justify-content: flex-end;
+  color: var(--secondary);
 }
 .latest .card .card-bottom:hover{
-  color: #1f1a54;
+  color: var(--black);
+  cursor: pointer;
 }
 /* latest news */
 .footer .container-fluid{
@@ -267,6 +272,17 @@ header {
 /* about-2-css */
 .about-us-2{
   margin-top: 8rem;
+}
+.about-us-2 .img-head{
+  position: relative;
+  bottom: 50%;
+  color: var(--white);
+  justify-content: center;
+  align-items: center;
+}
+.about-us-2 .img-head span{
+  color: var(--sky-blue);
+
 }
 .about-us-2 .card{
   border: none;
@@ -321,11 +337,11 @@ header {
 .review .card{
   border: none;
   box-shadow: 1px 1px 12px -2px #bfafb2;
-  -webkit-box-shadow: 1px 1px 12px -2px #bfafb2;
+  -webkit-box-shadow: 1px 1px 12px   -2px #bfafb2;
   -moz-box-shadow: 1px 1px 12px -2px #bfafb2;
   border-radius: 10px;
   width: 100%;
-  margin: 10px
+  margin: 35px 0 auto;
 
 }
 .review .customer-img{
@@ -333,6 +349,12 @@ header {
   width: 40px;
   height: 40px;
 }
+.review hr{
+  background-color: #ed1c24; width: 15rem; margin: 0 auto; height: 2px;
+}
+/* .review .icons{
+  margin-top: -30px;
+} */
 /* revewis css */
 
 /* counter-section css */
