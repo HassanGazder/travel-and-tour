@@ -122,28 +122,7 @@ header {
 .destinations h2{
   margin-top: 3rem;
 }
-.img-text{
- position: relative;
- text-align: center;
- color: white;
-}
-.destinations .img-heading{
-  color: black;
-  position: relative;
-  bottom: 20%;
-  float: left;
-  left: 7%;
-  font-size: 2rem;
-  color: var(--yellow);
-}
-.destinations .img-sub-head{
-  color: black;
-  position: relative;
-  bottom: 13%;
-  float: left;
-  font-size: 30px;
-  right: 5%;
-}
+
 /* destination */
 
 /* popular tours */
@@ -353,9 +332,9 @@ header {
 .review hr{
   background-color: #ed1c24; width: 15rem; margin: 0 auto; height: 2px;
 }
-/* .review .icons{
-  margin-top: -30px;
-} */
+.review .icons{
+  font-size: 10px;
+}
 /* revewis css */
 
 /* counter-section css */
@@ -476,6 +455,7 @@ padding: 10px;
   background-color: var(--white);
   color: var(--primary);
   cursor: pointer;
+  transition: 0.6s;
 }
 .videos-gallery .second-row img{
   height: 350px;
