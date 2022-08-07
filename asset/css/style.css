@@ -88,6 +88,10 @@ header {
   font-size: 16px;
   text-align: center;
 }
+.navbar .nav-item .nav-link:hover{
+  color: var(--sky-blue);
+  transition: 0.4s;
+}
 /* banner */
 .banner {
     display: flex;
@@ -597,13 +601,15 @@ padding: 10px;
 .hero-5 .row .second-row{
   margin-top: 5rem;
 }
-.hero-5 .row .second-row img{
-  height: 280px;
+.container .box .img-box{
+  width: 100%;
+  height: 100%;
+  
 }
 .container .box .img-box img{
-  position: absolute;
-  top: 0;
-  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 /* hover effect */
 .container .box{
@@ -613,60 +619,59 @@ padding: 10px;
   transition: 0.5s;
 }
 .hero-5 .container .box .content{
-position: absolute;
-top: 0;
-left: 10%;
-width: 100%;
-height: 100%;
-display: flex;
-z-index: 1;
-padding: 20px;
-align-items: flex-end;
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ background-color: #000;
+ width: 100%;
+ height: fit-content;
+ display: none;
+ z-index: 1;
+ padding: 20px;
+ transition: all .1s;
+
+ /* justify-content: center; */
+ /* align-items: flex-end; */
+}
+.hero-5 .container .box:hover .content{
+ display: block;
 }
 .hero-5 .container .box .content h2{
-color: white;
+color:var(--white);
 font-size: 30px;
-transition: 0.7s;
 text-transform: uppercase;
 margin-bottom: 2px;
 transform: translateY(200px);
 }
 .hero-5 .container .box:hover .content h2{
 transform: translateY(0);
-transition-delay: 0.5s;
 }
 .hero-5 .container .box .content p{
-color: white;
+color:var(--white);
 font-size: 15px;
 transform: translateY(200px);
-transition: 0.6s;
 }
 .hero-5 .container .box:hover .content p{
-transition-delay: 0.6s;
 transform: translatey(0);
 }
 .hero-5 .container .box .icons{
-  position: absolute;
-  top: 0;
   left: 10%;
   width: 100%;
   height: 100%;
   display: flex;
   z-index: 1;
-  padding: 20px;
-  align-items: flex-end;
   gap: 25px;
-  margin-top: 10px;
+  margin-top: 5px;
+  justify-content: center;
  }
  .hero-5 .container .box .icons .fonts{
   color: var(--white);
   transform: translateY(200px);
-  transition: 0.8s;
 
  }
  .hero-5 .container .box:hover .fonts{ 
     transform: translatey(0);
-transition-delay: 0.7s;
+transition-delay: 0.8s;
 
  }
 /* hover effect */
@@ -675,3 +680,70 @@ transition-delay: 0.7s;
 /* hero-5 css  */
 
 /* team css */
+
+
+/* contact us css */
+
+
+/* banner 6 css */
+
+
+
+/* banner 6 css */
+
+
+/* hero-6 css */
+.hero-6{
+  margin-top: 6rem;
+}
+.hero-6 .row img{
+  width: 100%;
+}
+.hero-6 .second-row{
+  margin-top: 6rem;
+}
+.hero-6 .second-row .heading{
+  font-size: 2rem;
+}
+.hero-6 .second-row .icons{
+  color: var(--sky-blue);
+  font-size: 13px;
+}
+.hero-6 .second-row .icons span{
+  color: var(--black);
+}
+.hero-6 .second-row .icons span:hover{
+  color: var(--sky-blue);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.form{
+  margin-top: 6rem;
+}
+.form .container{
+  background-color: var(--sky-blue);
+}
+.form .container textarea{
+   background-color:#26b5dc;
+   border: none;
+   width: 93%;
+   margin: 0 auto;
+   position: relative;
+}
+.form .container .icon{
+  position: absolute;
+    top: 16px;
+    left: 20px;
+    font-size: 14px;
+    color: black;
+    z-index: 2;
+}
+.form .container .icon::before{
+  content: "\e066";
+}
+
+/* hero-6 css */
+
+
+
+/* contact us css */
