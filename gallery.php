@@ -40,20 +40,20 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link " aria-current="page" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link" href="about.php">About</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="gallery.html">Gallery</a>
+                        <a class="nav-link" href="gallery.php">Gallery</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="tours.html">Tours</a>
+                        <a class="nav-link" href="tours.php">Tours</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="team.html">Team</a>
+                        <a class="nav-link" href="team.php">Team</a>
                     </li>
                     <li class="nav-item">
                         <button class="btn custom-btn" type="submit" id="nav-button">Booking Now</button>
@@ -79,21 +79,21 @@
             <p class="px-5 display-4 fw-bold">IMAGE <span>GALLERY</span></p>
 
             <div class="row px-5 mt-5">
-                <div class="col-lg-4 col-md-12 col-sm-12 ">
+                <div class="col-lg-4 col-md-12 col-sm-12 geek">
                     <img src="./asset/images/gallery-4.jpg" alt="">
                 </div>
-                <div class="col-lg-4 col-md-12 col-sm-12 ">
+                <div class="col-lg-4 col-md-12 col-sm-12 geek">
                     <img src="./asset/images/gallery-5.jpg" alt="">
                 </div>
-                <div class="col-lg-4 col-md-12 col-sm-12 ">
+                <div class="col-lg-4 col-md-12 col-sm-12 geek">
                     <img src="./asset/images/gallery-6.jpg" alt="">
                 </div>
 
                 <!-- row 2 -->
-                <div class="col-lg-6 col-md-12 col-sm-12 mt-2 ">
+                <div class="col-lg-6 col-md-12 col-sm-12 mt-2 geek">
                     <img src="./asset/images/gallery-7.jpg" alt="">
                 </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 mt-2 ">
+                <div class="col-lg-6 col-md-12 col-sm-12 mt-2 geek">
                     <img src="./asset/images/gallery-8.jpg" alt="">
                 </div>
                 <!-- row 2 -->
