@@ -31,7 +31,7 @@
 
     <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <a class="navbar-brand" href="#">Travel</a>
+            <a class="navbar-brand" href="#"><img style="width: 100%;height:120px;object-fit:contain;" src="./asset/images/weblogo.jpg" alt=""></a></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">

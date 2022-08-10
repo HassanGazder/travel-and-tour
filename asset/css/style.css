@@ -799,8 +799,9 @@ a {
   margin-top: 6rem;
 }
 
-.hero-6 .row img {
+.hero-6 .row img{
   width: 100%;
+  padding: 20px;
 }
 
 .hero-6 .second-row {

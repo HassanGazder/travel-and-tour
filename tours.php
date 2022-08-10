@@ -26,7 +26,7 @@
 <body>
     <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <a class="navbar-brand" href="#">Travel</a>
+            <a class="navbar-brand" href="#"><img style="width: 100%;height:120px;object-fit:contain;" src="./asset/images/weblogo.jpg" alt=""></a</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -59,7 +59,6 @@
     </nav>
 
     <!-- banner -->
-    <div class="div"></div>
     <section class="banner-4 d-flex justify-content-center align-items-center">
         <div class="headings">
             <p class="text-white display-4">Tours</p>
@@ -71,11 +70,11 @@
     <section class="hero-4">
         <div class="container">
             <div class="row m-0 p-0">
-                <div class="col-lg-3" data-aos="fade-right">
+                <div class="col-lg-3 col-md-12 col-sm-12" data-aos="fade-right">
                     <img src="./asset/images/tour-1.jpg" alt="">
                 </div>
-                <div class="col-lg-5">
-                    <p class="fw-bold">Weekend In Europe,London</p>
+                <div class="col-lg-5 col-md-12 col-sm-12" >
+                    <p class="fw-bold mt-2">Weekend In Europe,London</p>
                     <i class="fa-solid fa-clock-rotate-left icon mt-2">&nbsp;
                         5 DAys
                     </i>
@@ -86,7 +85,7 @@
 
                 </div>
 
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="vertical mt-3">
                         <div class="content-right ms-5">
                             <p>From</p>
@@ -99,10 +98,10 @@
                 </div>
 
                 <!-- second row -->
-                <div class="col-lg-3 mt-5" data-aos="fade-left">
+                <div class="col-lg-3 col-md-12 col-sm-12 mt-5" data-aos="fade-left">
                     <img src="./asset/images/tour-2.jpg" alt="">
                 </div>
-                <div class="col-lg-5 mt-5">
+                <div class="col-lg-5 col-md-12 col-sm-12 mt-5">
                     <p class="fw-bold">Mexican Holiday Tour</p>
                     <i class="fa-solid fa-clock-rotate-left icon mt-2">&nbsp;
                         7 DAys
@@ -114,7 +113,7 @@
 
                 </div>
 
-                <div class="col-lg-4 mt-5">
+                <div class="col-lg-4 col-md-12 col-sm-12 mt-5">
                     <div class="vertical mt-3">
                         <div class="content-right ms-5">
                             <p>From</p>
@@ -128,10 +127,10 @@
                 <!-- second row -->
 
                 <!-- third row -->
-                <div class="col-lg-3 mt-5" data-aos="fade-up-right">
+                <div class="col-lg-3 col-md-12 col-sm-12 mt-5" data-aos="fade-up-right">
                     <img src="./asset/images/tour-3.jpg" alt="">
                 </div>
-                <div class="col-lg-5 mt-5">
+                <div class="col-lg-5 col-md-12 col-sm-12 mt-5">
                     <p class="fw-bold">Paris Vacation Tour</p>
                     <i class="fa-solid fa-clock-rotate-left icon mt-2">&nbsp;
                         7 DAys
@@ -142,7 +141,7 @@
 
                 </div>
 
-                <div class="col-lg-4 mt-5">
+                <div class="col-lg-4 col-md-12 col-sm-12 mt-5">
                     <div class="vertical mt-3">
                         <div class="content-right ms-5">
                             <p>From</p>
@@ -157,10 +156,10 @@
 
 
                 <!-- fourth row -->
-                <div class="col-lg-3 mt-5" data-aos="zoom-in-down">
+                <div class="col-lg-3 col-md-12 col-sm-12 mt-5" data-aos="zoom-in-down">
                     <img src="./asset/images/tour-4.jpg" alt="">
                 </div>
-                <div class="col-lg-5 mt-5">
+                <div class="col-lg-5 col-md-12 col-sm-12 mt-5">
                     <p class="fw-bold">Hot days Venice Tour</p>
                     <i class="fa-solid fa-clock-rotate-left icon mt-2">&nbsp;
                         7 DAys
@@ -172,7 +171,7 @@
 
                 </div>
 
-                <div class="col-lg-4 mt-5">
+                <div class="col-lg-4 col-md-12 col-sm-12 mt-5">
                     <div class="vertical mt-3">
                         <div class="content-right ms-5">
                             <p>From</p>
@@ -187,10 +186,10 @@
 
 
                 <!-- Fifth row -->
-                <div class="col-lg-3 mt-5" data-aos="zoom-in-left">
+                <div class="col-lg-3 col-md-12 col-sm-12 mt-5" data-aos="zoom-in-left">
                     <img src="./asset/images/tour-5.jpg" alt="">
                 </div>
-                <div class="col-lg-5 mt-5">
+                <div class="col-lg-5 col-md-12 col-sm-12 mt-5">
                     <p class="fw-bold">Spain Bus Tour</p>
                     <i class="fa-solid fa-clock-rotate-left icon mt-2">&nbsp;
                         7 DAys
@@ -202,7 +201,7 @@
 
                 </div>
 
-                <div class="col-lg-4 mt-5">
+                <div class="col-lg-4 col-md-12 col-sm-12 mt-5">
                     <div class="vertical mt-3">
                         <div class="content-right ms-5">
                             <p>From</p>
@@ -217,10 +216,10 @@
 
 
                 <!-- sixth row -->
-                <div class="col-lg-3 mt-5" data-aos="flip-down">
+                <div class="col-lg-3 col-md-12 col-sm-12 mt-5" data-aos="flip-down">
                     <img src="./asset/images/tour-6.jpg" alt="">
                 </div>
-                <div class="col-lg-5 mt-5">
+                <div class="col-lg-5 col-md-12 col-sm-12 mt-5">
                     <p class="fw-bold">Thailand Summer Tour</p>
                     <i class="fa-solid fa-clock-rotate-left icon mt-2">&nbsp;
                         7 DAys
@@ -231,7 +230,7 @@
 
                 </div>
 
-                <div class="col-lg-4 mt-5">
+                <div class="col-lg-4 col-md-12 col-sm-12 mt-5">
                     <div class="vertical mt-3">
                         <div class="content-right ms-5">
                             <p>From</p>
@@ -246,10 +245,10 @@
 
 
                 <!-- seventh row -->
-                <div class="col-lg-3 mt-5"  data-aos="flip-up">
+                <div class="col-lg-3 col-md-12 col-sm-12 mt-5"  data-aos="flip-up">
                     <img src="./asset/images/tour-7.jpg" alt="">
                 </div>
-                <div class="col-lg-5 mt-5">
+                <div class="col-lg-5 col-md-12 col-sm-12 mt-5">
                     <p class="fw-bold">Amazon To The Andes</p>
                     <i class="fa-solid fa-clock-rotate-left icon mt-2">&nbsp;
                         7 DAys
@@ -260,7 +259,7 @@
 
                 </div>
 
-                <div class="col-lg-4 mt-5">
+                <div class="col-lg-4 col-md-12 col-sm-12 mt-5">
                     <div class="vertical mt-3">
                         <div class="content-right ms-5">
                             <p>From</p>
@@ -274,10 +273,10 @@
                 <!-- seventh row -->
 
                  <!-- eight row -->
-                 <div class="col-lg-3 mt-5" data-aos="fade-up">
+                 <div class="col-lg-3 col-md-12 col-sm-12 mt-5" data-aos="fade-up">
                     <img src="./asset/images/tour-8.jpg" alt="">
                 </div>
-                <div class="col-lg-5 mt-5">
+                <div class="col-lg-5 col-md-12 col-sm-12 mt-5">
                     <p class="fw-bold">Vienna All Through</p>
                     <i class="fa-solid fa-clock-rotate-left icon mt-2">&nbsp;
                         7 DAys
@@ -287,7 +286,7 @@
 
                 </div>
 
-                <div class="col-lg-4 mt-5">
+                <div class="col-lg-4 col-md-12 col-sm-12 mt-5">
                     <div class="vertical mt-3">
                         <div class="content-right ms-5">
                             <p>From</p>
