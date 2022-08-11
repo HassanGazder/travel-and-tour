@@ -13,17 +13,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
     <link rel="stylesheet" href="./asset/css/style.css" />
     <title>Travel And Tour</title>
-
+<!-- <style>
+     @media (max-width:820px) {
+  body {
+      padding: 10px
+  }
+} 
+</style> -->
 </head>
 <script>
-    function contact(){
-        window.location.href="contact.html";
+    function contact() {
+        window.location.href = "contact.html";
     }
 </script>
+
 <body>
     <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <a class="navbar-brand" href="#"><img style="width: 100%;height:120px;object-fit:contain;" src="./asset/images/weblogo.jpg" alt=""></a>
+            <a class="navbar-brand" href="#"><img style="width: 100%;height:120px;object-fit:contain;"
+                    src="./asset/images/weblogo.jpg" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -48,99 +56,99 @@
                         <a class="nav-link" href="team.html">Team</a>
                     </li>
                     <li class="nav-item">
-                        <button onclick="book()" class="btn custom-btn" type="submit" id="nav-button">Booking Now</button>
+                        <button onclick="book()" class="btn custom-btn" type="submit" id="nav-button">Booking
+                            Now</button>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-
-    <!-- booking form -->
-                                    <script type='text/javascript' src=''></script>
-                                    <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
-                                    <script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js'></script>
-                                </head>
-                                <body oncontextmenu='return false' class='snippet-body'>
-                                <div id="booking" class="section">
-        <div class="section-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-7 col-md-push-5">
-                        <div class="booking-cta">
-                            <h1>Make your reservation</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi facere, soluta magnam consectetur molestias itaque
-                                ad sint fugit architecto incidunt iste culpa perspiciatis possimus voluptates aliquid consequuntur cumque quasi.
-                                Perspiciatis.
-                            </p>
-                        </div>
+    <!-- banner -->
+    <section class="banner-8 d-flex justify-content-center align-items-center">
+        <h1 class="display-4 heading fw-bold text-white">Book Your FLight Now</h1>
+    </section>
+    <!-- banner -->
+<section class="booking">
+    <div class="container rounded shadow-sm">
+        <form action="">
+            <div class="row">
+                <div class="col-md-2 pe-0 col-sm-12">
+                    <div class="btn radio-btn mb-3"> <label class="radio"> <input type="radio" value="a" name="book"
+                                checked> Roundtrip <span></span> </label> </div>
+                </div>
+                <div class="col-md-2 pe-0 col-sm-12">
+                    <div class="btn radio-btn mb-3"> <label class="radio"> <input type="radio" value="a" name="book">
+                            One way <span></span> </label> </div>
+                </div>
+                <div class="col-md-2 pe-0 col-sm-12">
+                    <div class="btn radio-btn mb-3"> <label class="radio"> <input type="radio" value="a" name="book">
+                            Multi-City <span></span> </label> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-12 mb-4">
+                    <div class="form-control d-flex flex-column">
+                        <p class="h-blue">FLYING FROM</p> <input class="inputbox" placeholder="City or Airport"
+                            type="text">
                     </div>
-                    <div class="col-md-4 col-md-pull-7">
-                        <div class="booking-form">
-                            <form>
-                                <div class="form-group">
-                                    <span class="form-label">Your Destination</span>
-                                    <input class="form-control" type="text" placeholder="Enter a destination">
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <div class="form-group">
-                                            <span class="form-label">Check In</span>
-                                            <input class="form-control" type="date" required>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="form-group">
-                                            <span class="form-label">Check out</span>
-                                            <input class="form-control" type="date" required>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-4">
-                                        <div class="form-group">
-                                            <span class="form-label">Rooms</span>
-                                            <select class="form-control">
-                                                <option>1</option>
-                                                <option>2</option>
-                                                <option>3</option>
-                                            </select>
-                                            <span class="select-arrow"></span>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <div class="form-group">
-                                            <span class="form-label">Adults</span>
-                                            <select class="form-control">
-                                                <option>1</option>
-                                                <option>2</option>
-                                                <option>3</option>
-                                            </select>
-                                            <span class="select-arrow"></span>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <div class="form-group">
-                                            <span class="form-label">Children</span>
-                                            <select class="form-control">
-                                                <option>0</option>
-                                                <option>1</option>
-                                                <option>2</option>
-                                            </select>
-                                            <span class="select-arrow"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-btn">
-                                    <button class="submit-btn">Check availability</button>
-                                </div>
-                            </form>
-                        </div>
+                </div>
+                <div class="col-md-6 col-12 mb-4">
+                    <div class="form-control d-flex flex-column">
+                        <p class="h-blue">FLYING TO</p> <input class="inputbox" placeholder="City or Airport"
+                            type="text">
                     </div>
                 </div>
             </div>
-        </div>
+            <div class="row">
+                <div class="col-md-6 col-12 mb-4">
+                    <div class="form-control d-flex flex-column">
+                        <p class="h-blue">DEPARTING</p> <input class="inputbox textmuted" type="date">
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 mb-4">
+                    <div class="form-control d-flex flex-column">
+                        <p class="h-blue">RETURNING</p> <input class="inputbox textmuted " type="date">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="form-control d-flex flex-column">
+                        <p class="h-blue">ADULTS(18+)</p> <select class="border-0 outline-none">
+                            <option value="" hidden selected>0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="form-control d-flex flex-column">
+                        <p class="h-blue">CHILDREN(0-17)</p> <select class="border-0 outline-none">
+                            <option value="" hidden selected>0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="form-control d-flex flex-column">
+                        <p class="h-blue">TRAVEL CLASS</p> <select class="border-0 outline-none">
+                            <option value="" hidden selected>Class</option>
+                            <option value="1">Economy</option>
+                            <option value="2">Premium</option>
+                            <option value="3">Business</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="btn btn-primary form-control text-center">Book</div>
+        </form>
     </div>
-    <!-- booking form -->
+
+</section>
+   
 
     <!-- footer -->
     <!-- Remove the container if you want to extend the Footer to full width. -->
@@ -159,25 +167,25 @@
 
                     <!-- Right -->
                     <div>
-              <a href="" class="text-white me-4">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-              <a href="" class="text-white me-4">
-                <i class="fab fa-twitter"></i>
-              </a>
-              <a href="" class="text-white me-4">
-                <i class="fab fa-google"></i>
-              </a>
-              <a href="" class="text-white me-4">
-                <i class="fab fa-instagram"></i>
-              </a>
-              <a href="" class="text-white me-4">
-                <i class="fab fa-linkedin"></i>
-              </a>
-              <a href="" class="text-white me-4">
-                <i class="fab fa-github"></i>
-              </a>
-            </div>
+                        <a href="" class="text-white me-4">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="" class="text-white me-4">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="" class="text-white me-4">
+                            <i class="fab fa-google"></i>
+                        </a>
+                        <a href="" class="text-white me-4">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="" class="text-white me-4">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="" class="text-white me-4">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
                     <!-- Right -->
                 </section>
                 <!-- Section: Social media -->
@@ -190,7 +198,8 @@
                             <!-- Grid column -->
                             <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                                 <!-- Content -->
-                                <img style="width: 100px;height:100px; border-radius: 50%;" src="./asset/images/weblogo.jpg" alt="">
+                                <img style="width: 100px;height:100px; border-radius: 50%;"
+                                    src="./asset/images/weblogo.jpg" alt="">
                                 <p>
                                     Here you can use rows and columns to organize your footer
                                     content. Lorem ipsum dolor sit amet, consectetur adipisicing
@@ -277,8 +286,9 @@
     <!-- footer -->
     <!-- back to top button -->
     <div class="col-lg-12 col-md-12 col-sm-12">
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="fa fa-arrow-up"></i></a>
-         
+        <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+                class="fa fa-arrow-up"></i></a>
+
     </div>
     <!-- back to top button -->
 
@@ -287,7 +297,6 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 
-        <script type='text/javascript'></script>
 
     <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
