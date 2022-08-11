@@ -1,6 +1,4 @@
-<?php
-include("connection.php")
-?>
+
 <!doctype html>
 <html lang="en">
 
@@ -50,21 +48,21 @@ include("connection.php")
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 					<li class="nav-item">
-						<a class="nav-link " aria-current="page" href="index.php">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="about.php">About</a>
-					</li>
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
 
-					<li class="nav-item">
-						<a class="nav-link" href="gallery.php">Gallery</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="tours.php">Tours</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="team.php">Team</a>
-					</li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tours.html">Tours</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="team.html">Team</a>
+                    </li>
 					<li class="nav-item">
 						<button class="btn custom-btn" type="submit" id="nav-button">Booking Now</button>
 					</li>
@@ -204,24 +202,6 @@ include("connection.php")
 	</section>
 	<!-- hero-6 -->
 
-	<?php
-	if (isset($_POST["register"])) {
-		$usname = $_POST["uname"];
-		$usemail = $_POST["uemail"];
-		$usnumber = $_POST["unumber"];
-		$usmessage = $_POST["umessage"];
-
-		$insert = "insert into employes (Name,Email,Password,Number) values 
-('" . $usname . "','" . $usemail . "','" . $usnumber . "','" . $usmessage . "')";
-
-		$insert1 = mysqli_query($connection, $insert);
-		if ($insert1) {
-			echo "Have a good day!";
-		} else {
-			echo "Have a good night!";
-		}
-	}
-	?>
 	<!-- form  -->
 	<form method="post">
 		<section class="form">
@@ -334,7 +314,8 @@ include("connection.php")
 							<!-- Grid column -->
 							<div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
 								<!-- Content -->
-								<h6 class="text-uppercase fw-bold mt-3">Company name</h6>
+								<img style="width: 100px;height:100px; border-radius: 50%;" src="./asset/images/weblogo.jpg" alt="">
+
 								<p>
 									Here you can use rows and columns to organize your footer
 									content. Lorem ipsum dolor sit amet, consectetur adipisicing
@@ -428,7 +409,10 @@ include("connection.php")
 
 	<!-- End of .container -->
 	<!-- footer -->
-
+ <!-- back to top button -->
+ 
+ <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="fa fa-arrow-up"></i></a>
+ <!-- back to top button -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 

@@ -1039,3 +1039,24 @@ a {
 /* form css */
 
 /* contact us css */
+
+/* back to top button */
+.back-to-top{
+  z-index: 999;
+  background-color: #0078FF;
+  color: white;
+  border-radius: 100% 100%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 20px;
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+}
+.back-to-top:hover{
+  background-color:#0067dd;
+  color: white;
+}
+/* back to top button */
+
