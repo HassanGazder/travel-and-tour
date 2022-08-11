@@ -19,10 +19,6 @@
     function contact(){
         window.location.href="contact.html";
     }
-
-    function book(){
-        window.location.href="booking.html"
-    }
 </script>
 <body>
     <nav class="navbar navbar-expand-lg">
@@ -59,197 +55,92 @@
         </div>
     </nav>
 
-    <!-- banner -->
-    <section class="banner">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-md-6 col-sm-12">
-                    <h1 class="heading-h1">Explore Your Travel</h1>
-                    <h1 class="heading-h1 mt-4">Trusted Travel Agency</h1>
-                    <p class="mt-4">I travel not to go anywhere, but to go. I travel for travel's sake the great affair
-                        is to move.</p>
-                    <button onclick="contact()" class="btn custom-btn mt-3" type="submit" id="nav-button">Contact Us</button>
-                    <button class="btn custom-btn mt-3" type="submit" id="nav-button">Learn More</button>
-                </div>
-                <div class="col-lg-7 col-md-6 col-sm-12 travel">
-                    <img src="./asset/images/hero-banner.png" alt="">
-
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- banner -->
-
-    <!-- Destinations -->
-    <section class="destinations">
-        <div class="container">
-            <h2 class="sub-heading text-center">Destinations</h2>
-            <h1 class=" mt-4 heading-h1 text-center">Choose Your Place</h1>
-            <div class="row mt-5">
-                <div class="col-lg-6 col-md-6 col-sm-12 des-img img-text">
-                    <img src="./asset/images/destination-1.jpg" alt="">
-
-                
-
-
-
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 des-img img-text">
-                    <img src="./asset/images/destination-2.jpg" alt="">  
-
-                </div>
-            </div>
-            <div class="row des-img-2">
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <img src="./asset/images/destination-3.jpg" alt="" class="img-text">
-
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 des-img-2">
-                    <img src="./asset/images/destination-4.jpg" alt="" class="img-text">
-
-                </div>
-                <div class="col-lg-4 col-md-12 col-sm-12 des-img-2">
-                    <img src="./asset/images/destination-5.jpg" alt="" class="img-text">
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Destinations -->
-
-    <!-- popular tours -->
-    <section class="tours">
-        <div class="container">
-            <h2 class="sub-heading text-center">Featured Tours</h2>
-            <h1 class="mt-4 heading-h1 text-center">Choose Your Place</h1>
-            <div class="row">
-                <div class="col-lg-4 mt-5">
-                    <div class="card">
-                        <img class="card-img-top" src="./asset/images/popular-1.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <div class="rupees">From $50.00</div>
-                            <p class="card-text mt-4">A good traveler ha sno fixed plans and is not intent in arriving
+    <!-- booking form -->
+                                    <script type='text/javascript' src=''></script>
+                                    <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
+                                    <script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js'></script>
+                                </head>
+                                <body oncontextmenu='return false' class='snippet-body'>
+                                <div id="booking" class="section">
+        <div class="section-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 col-md-push-5">
+                        <div class="booking-cta">
+                            <h1>Make your reservation</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi facere, soluta magnam consectetur molestias itaque
+                                ad sint fugit architecto incidunt iste culpa perspiciatis possimus voluptates aliquid consequuntur cumque quasi.
+                                Perspiciatis.
                             </p>
-                            <p class="card-bottom">Kuala Lumpur, Malaysia</p>
-                            <button href="#" class="btn custom-btn" type="submit">Go somewhere</button>
-
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 mt-5">
-                    <div class="card">
-                        <img class="card-img-top" src="./asset/images/popular-2.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <div class="rupees">From $50.00</div>
-                            <p class="card-text mt-4">A good traveler ha sno fixed plans and is not intent in arriving
-                            </p>
-                            <p class="card-bottom">Kuala Lumpur, Malaysia</p>
-                            <button href="#" class="btn custom-btn" type="submit">Go somewhere</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 mt-5">
-                    <div class="card">
-                        <img class="card-img-top" src="./asset/images/popular-3.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <div class="rupees">From $50.00</div>
-                            <p class="card-text mt-4">A good traveler ha sno fixed plans and is not intent in arriving
-                            </p>
-                            <p class="card-bottom">Kuala Lumpur, Malaysia</p>
-                            <button href="#" class="btn custom-btn" type="submit">Go somewhere</button>
-
+                    <div class="col-md-4 col-md-pull-7">
+                        <div class="booking-form">
+                            <form>
+                                <div class="form-group">
+                                    <span class="form-label">Your Destination</span>
+                                    <input class="form-control" type="text" placeholder="Enter a destination">
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <span class="form-label">Check In</span>
+                                            <input class="form-control" type="date" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <span class="form-label">Check out</span>
+                                            <input class="form-control" type="date" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <div class="form-group">
+                                            <span class="form-label">Rooms</span>
+                                            <select class="form-control">
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                            </select>
+                                            <span class="select-arrow"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="form-group">
+                                            <span class="form-label">Adults</span>
+                                            <select class="form-control">
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                            </select>
+                                            <span class="select-arrow"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="form-group">
+                                            <span class="form-label">Children</span>
+                                            <select class="form-control">
+                                                <option>0</option>
+                                                <option>1</option>
+                                                <option>2</option>
+                                            </select>
+                                            <span class="select-arrow"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-btn">
+                                    <button class="submit-btn">Check availability</button>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- popular tours -->
-
-    <!-- about us -->
-    <section class="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-md-6 col-sm-12">
-                    <h2 class="sub-heading">About</h2>
-                    <h1 class=" mt-4 heading-h1">Explore all tour of the world with us.</h1>
-                    <p class="mt-4">Lorem Ipsum available, but the majority have suffered alteration in some form, by
-                        injected humour, or randomised words which don't look even slightly believable.</p>
-                    <div class="tour-head">Tour guide</div>
-                    <div class="tour-sub-head">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis,
-                        temporibus.</div>
-
-                    <div class="mt-4 tour-head">Friendly price</div>
-                    <div class="tour-sub-head">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis,
-                        temporibus.</div>
-
-                    <div class="mt-4 tour-head">Friendly price</div>
-                    <div class="tour-sub-head">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis,
-                        temporibus.</div>
-
-
-                </div>
-                <div class="col-lg-7 col-md-6 col-sm-12">
-                    <img src="./asset/images/about-banner.png" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- about us -->
-
-    <!-- latest news -->
-    <section class="latest">
-        <div class="container">
-            <h2 class="sub-heading text-center">From The Blog Post</h2>
-            <h1 class="mt-4 heading-h1 text-center">Latest News & Articles</h1>
-            <div class="row">
-                <div class="col-lg-4 mt-5">
-                    <div class="card">
-                        <img class="card-img-top" src="./asset/images/popular-1.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <div class="card-dp"><img width="40px" src="./asset/images/author-avatar.png"
-                                    alt="" class="me-3">Admin</div>
-                            <div class="time">10:30 Am</div>
-                            <p class="card-text mt-4">A good traveler ha sno fixed plans and is not intent in arriving
-                            </p>
-                            <p class="card-bottom">Read More</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 mt-5">
-                    <div class="card">
-                        <img class="card-img-top" src="./asset/images/popular-2.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <div class="card-dp"><img width="40px" src="./asset/images/author-avatar.png"
-                                    alt="" class="me-3">Admin</div>
-                            <div class="time">10:30 Am</div>
-
-                            <p class="card-text mt-4">A good traveler ha sno fixed plans and is not intent in arriving
-                            </p>
-                            <p class="card-bottom">Read More</p>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 mt-5">
-                    <div class="card">
-                        <img class="card-img-top" src="./asset/images/popular-3.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <div class="card-dp"><img width="40px" src="./asset/images/author-avatar.png"
-                                    alt="" class="me-3">Admin</div>
-                            <div class="time">10:30 Am</div>
-
-                            <p class="card-text mt-4">A good traveler ha sno fixed plans and is not intent in arriving
-                            </p>
-                            <p class="card-bottom">Read More</p>
-
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- latest news -->
+    </div>
+    <!-- booking form -->
 
     <!-- footer -->
     <!-- Remove the container if you want to extend the Footer to full width. -->
@@ -396,6 +287,7 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 
+        <script type='text/javascript'></script>
 
     <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
