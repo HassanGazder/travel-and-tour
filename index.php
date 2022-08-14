@@ -1,3 +1,6 @@
+<?php
+include("connection.php");
+?>
 <!doctype html>
 <html lang="en">
 
@@ -17,11 +20,11 @@
 </head>
 <script>
     function contact(){
-        window.location.href="contact.html";
+        window.location.href="contact.php";
     }
 
     function book(){
-        window.location.href="booking.html"
+        window.location.href="booking.php"
     }
 </script>
 <body>

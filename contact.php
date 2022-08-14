@@ -1,4 +1,6 @@
-
+<?php
+include("connection.php");
+?>
 <!doctype html>
 <html lang="en">
 
@@ -38,7 +40,8 @@
 </style>
 <script>
 	function book(){
-	   window.location.href="booking.html"
+	   window.location.href="booking.php
+	   "
    }
 </script>
 </head>
@@ -206,6 +209,49 @@
 		</div>
 	</section>
 	<!-- hero-6 -->
+<!-- php start -->
+<?php
+
+
+if(isset($_POST["register"]))
+{
+
+
+
+	$username = $_POST["uname"];
+	$useremail = $_POST["uemail"];
+	$usernumber = $_POST["unumber"];
+	$usermessage = $_POST["umessage"];
+
+	if($username == "" || $useremail == "" || $usernumber == "" || $usermessage == "")
+
+        {
+            echo '<center><div class="alert alert-danger w-50 mt-5" role="alert">
+			Please fill All These Feilds
+		  </div></center>';
+        }
+        else
+        {
+            $insert = "insert into contact(Name,Email,Contact,Message) 
+            values ('".$username."','".$useremail."','".$usernumber."','".$usermessage."')";
+    
+            $insert1 = mysqli_query($c,$insert);
+            
+if($insert1){
+    echo '<center><div class="alert alert-success w-50 mt-5" role="alert">
+	Thank You For Contacting US
+  </div></center>';
+
+}
+else{
+    echo "not inserted";
+}
+
+        }
+ 
+    }
+?>
+<!-- php start -->
 
 	<!-- form  -->
 	<form method="post">

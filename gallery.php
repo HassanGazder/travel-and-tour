@@ -1,4 +1,6 @@
+
 <!doctype html>
+
 <html lang="en">
 
 <head>
@@ -24,7 +26,7 @@
 </head>
 <script>
     function book(){
-       window.location.href="booking.html"
+       window.location.href="booking.php"
    }
 </script>
 

@@ -26,7 +26,7 @@
             window.location.href="tours.php";
         }
         function book(){
-	   window.location.href="booking.html"
+	   window.location.href="booking.php"
    }
     </script>
 </head>
