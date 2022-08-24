@@ -20,11 +20,11 @@ include("connection.php");
 </head>
 <script>
     function contact(){
-        window.location.href="contact.php";
+        window.location.href="contact.html";
     }
 
     function book(){
-        window.location.href="booking.php"
+        window.location.href="booking.html"
     }
 </script>
 <body>
@@ -72,7 +72,10 @@ include("connection.php");
                     <p class="mt-4">I travel not to go anywhere, but to go. I travel for travel's sake the great affair
                         is to move.</p>
                     <button onclick="contact()" class="btn custom-btn mt-3" type="submit" id="nav-button">Contact Us</button>
-                    <button class="btn custom-btn mt-3" type="submit" id="nav-button">Learn More</button>
+                    <div className="header__buttons">
+                        <a href="./asset/images/myresume.pdf" className="btn btn-outline" download>Download Resume
+                        </a>
+                    </div>
                 </div>
                 <div class="col-lg-7 col-md-6 col-sm-12 travel">
                     <img src="./asset/images/hero-banner.png" alt="">
@@ -283,10 +286,10 @@ include("connection.php");
               <a href="" class="text-white me-4">
                 <i class="fab fa-instagram"></i>
               </a>
-              <a href="" class="text-white me-4">
+              <a href="https://www.linkedin.com/feed/" class="text-white me-4">
                 <i class="fab fa-linkedin"></i>
               </a>
-              <a href="" class="text-white me-4">
+              <a href="https://github.com/HassanGazder/" class="text-white me-4">
                 <i class="fab fa-github"></i>
               </a>
             </div>
