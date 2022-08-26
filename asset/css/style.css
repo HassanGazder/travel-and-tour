@@ -225,6 +225,11 @@ header {
   justify-content: flex-end;
   color: var(--secondary);
 }
+.latest a{
+  text-decoration: none;
+
+
+}
 
 .latest .card .card-bottom:hover {
   color: var(--black);
@@ -614,6 +619,9 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.hero-4 .tour-head{
+  color: #000;
 }
 
 .hero-4 .row img {
@@ -1036,6 +1044,8 @@ a {
     padding: 0;
   }
 }
+
+
 
 /* form css */
 
