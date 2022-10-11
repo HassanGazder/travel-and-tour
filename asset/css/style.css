@@ -323,6 +323,7 @@ a {
 .about-us-2 .card .heading:hover {
   color: var(--black);
   cursor: pointer;
+  transition: 0.5s;
 }
 
 
@@ -555,6 +556,10 @@ a {
 
 .top-destinations .left-head {
   font-size: 20px;
+}
+.top-destinations .bi-telephone-plus{
+  color: var(--white);
+  font-size: 25px;
 }
 
 .top-destinations .testomoinials {
