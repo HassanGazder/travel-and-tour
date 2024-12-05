@@ -56,13 +56,13 @@
 .heading-h1 {
   color: var(--primary);
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 1.7rem;
 }
 
 .sub-heading {
   color: var(--yellow);
   font-weight: bold;
-  font-size: 25px;
+  font-size: 2rem;
 }
 
 header {
@@ -116,9 +116,6 @@ header {
 /* banner */
 
 /* destinaitions */
-.destinations .des-img{
-  padding: 10px;
-}
 .destinations .des-img img {
   width: 100%;
   border-radius: 20px;
@@ -209,13 +206,14 @@ header {
 }
 
 .tours .card {
-  width: 90%;
+  width: 100%;
   box-shadow: 1px 1px 12px -2px #bfafb2;
   -webkit-box-shadow: 1px 1px 12px -2px #bfafb2;
   -moz-box-shadow: 1px 1px 12px -2px #bfafb2;
   border-radius: 10px;
   object-fit: contain;
   margin: 0 auto;
+  /* height: 300px; */
 
 }
 
@@ -265,7 +263,7 @@ header {
 }
 
 .latest .card {
-  width: 90%;
+  width: 100%;
   box-shadow: 1px 1px 12px -2px #bfafb2;
   -webkit-box-shadow: 1px 1px 12px -2px #bfafb2;
   -moz-box-shadow: 1px 1px 12px -2px #bfafb2;
@@ -274,7 +272,10 @@ header {
   object-fit: contain;
 
 }
-
+.latest .card .card-title{
+  color: var(--primary);
+  font-weight: bold;
+}
 .latest .card .card-text {
   color: var(--gray);
 }
@@ -1246,3 +1247,31 @@ a {
   
 }
 /* booking css  */
+/* umrah packages */
+.umrah-details .package-heading{
+  color: var(--primary);
+  font-weight: bold;
+}
+.banner-9 {
+  background-image: url(../images/makkah.jpg);
+  width: 100%;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  position: relative;
+}
+.banner-9::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  background-color: #000;
+  opacity: .5;
+  height: 100%
+}
+.banner-9 .headings {
+  z-index: 100;
+}
+
+/* umrah packages */
+
